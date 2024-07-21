@@ -12,7 +12,7 @@ const SearchBar = ({ onSubmit }) => {
     if (!values.query) {
       toast.error("You should search for something! Type something here");
     } else {
-      onSubmit(values);
+      onSubmit(values.query);  
     }
   };
 
