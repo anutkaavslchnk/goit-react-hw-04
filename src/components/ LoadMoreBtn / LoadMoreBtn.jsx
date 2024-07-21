@@ -1,10 +1,10 @@
 import s from './ LoadMoreBtn.module.css';
 console.log(s);
 
-const  LoadMoreBtn = ({onClick}) => {
+const LoadMoreBtn = ({pages}) => {
   return (
     <>
-    <button onClick={onClick}>Load more</button>
+    <button className={s.btnloadmore} onClick={pages}>Load more</button>
     </>
   )
 };

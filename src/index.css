@@ -26,3 +26,6 @@ img {
   display: block;
   max-width: 100%;
 }
+header{
+  margin: 0 auto;
+}
