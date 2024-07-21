@@ -3,10 +3,11 @@ import SearchBar from "./components/SearchBar/SearchBar";
 import ImageGallery from "./components/ImageGallery/ImageGallery";
 import { fetchGallery } from "./services/api";
 
-import ImageModal from "./components/ ImageModal/ ImageModal";
-import { ErrorMessage } from "formik";
+
+import ErrorMessage from "./components/ ErrorMessage/ ErrorMessage";
 import Loader from "./components/ Loader/ Loader";
-import LoadMoreBtn from "./components/ LoadMoreBtn / LoadMoreBtn";
+import LoadMoreBtn from './components/ LoadMoreBtn / LoadMoreBtn'
+import ImageModal from "./components/ ImageModal/ ImageModal"
 
 
 const App = () => {
